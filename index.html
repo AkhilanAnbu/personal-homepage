@@ -6,7 +6,7 @@
     <meta name="author" content="Akhilan Anbu" />
     <meta
       name="description"
-      content="Personal homepage of Akhilan Anbu, a Computer Science graduate student at Northeastern University interested in AI, web development, and research."
+      content="Personal homepage of Akhilan Anbu, a Computer Science graduate student at Northeastern University interested in AI, web development, research, and music."
     />
     <link rel="icon" href="./images/favicon.png" />
     <link rel="stylesheet" href="./css/styles.css" />
@@ -16,11 +16,14 @@
   <body>
     <header class="site-header">
       <nav class="nav-bar">
-        <a class="logo" href="./index.html">Akhilan Anbu</a>
+        <a class="logo split-name" href="./index.html">
+          Akhilan<span>Anbu</span>
+        </a>
 
         <div class="nav-links">
           <a href="./index.html">Home</a>
           <a href="./projects.html">Projects</a>
+          <a href="./resume.html">Resume</a>
           <a href="./activities.html">Activities</a>
           <a href="./ai-page.html">AI Page</a>
         </div>
@@ -29,36 +32,69 @@
 
     <main>
       <section class="hero-section">
-        <div class="hero-text">
-          <p class="tagline">
-            MS Computer Science Student • AI/ML • Web Development
-          </p>
-          <h1>Hi, I’m Akhilan Anbu.</h1>
-          <p>
-            I am a Computer Science graduate student at Northeastern University
-            with experience in AI/ML, web development, teaching, and research. I
-            enjoy building practical technology that is clear, useful, and
-            impactful.
-          </p>
-          <a class="primary-button" href="./projects.html">View My Work</a>
+        <div class="hero-image-wrap">
+          <img
+            class="profile-image-circle"
+            src="./images/profile.jpeg"
+            alt="Portrait of Akhilan Anbu"
+          />
         </div>
 
-        <img
-          class="profile-image"
-          src="./images/profile.jpg"
-          alt="Portrait of Akhilan Anbu"
-        />
+        <div class="hero-text">
+          <p class="tagline">MS Computer Science Student • AI/ML • Research</p>
+          <h1 class="split-heading">Akhilan<span>Anbu</span></h1>
+          <p>
+            I am a Computer Science graduate student at Northeastern University
+            with experience in AI/ML, web development, teaching, research, and
+            creative performance.
+          </p>
+
+          <div class="hero-actions">
+            <a class="primary-button" href="./projects.html">View Projects</a>
+            <a class="secondary-button" href="./resume.html">View Resume</a>
+          </div>
+        </div>
       </section>
 
-      <section class="content-section">
-        <h2>About Me</h2>
-        <p>
-          I am pursuing my MS in Computer Science at Northeastern University. My
-          work focuses on artificial intelligence, machine learning, web
-          technologies, and research-driven software projects. I have experience
-          as a Teaching Assistant, Generative AI Intern, Intern Project
-          Developer, and Data Analytics/Web Scraping Intern.
-        </p>
+      <section class="content-section about-layout">
+        <div>
+          <h2>About Me</h2>
+          <p>
+            I am pursuing my MS in Computer Science at Northeastern University.
+            My work focuses on artificial intelligence, machine learning, web
+            technologies, and research-driven software projects.
+          </p>
+          <p>
+            I have worked as a Teaching Assistant, Generative AI Intern, Intern
+            Project Developer, and Data Analytics/Web Scraping Intern. I enjoy
+            building useful technology that connects research, software, and
+            real-world impact.
+          </p>
+        </div>
+
+        <aside class="quick-facts">
+          <h3>Quick Facts</h3>
+
+          <div class="fact-row">
+            <span>Location</span>
+            <strong>Boston, MA</strong>
+          </div>
+
+          <div class="fact-row">
+            <span>Education</span>
+            <strong>MS CS @ Northeastern</strong>
+          </div>
+
+          <div class="fact-row">
+            <span>Undergrad</span>
+            <strong>B.Tech CSE @ VIT Chennai</strong>
+          </div>
+
+          <div class="fact-row">
+            <span>Email</span>
+            <strong>Anbu.ak@northeastern.edu</strong>
+          </div>
+        </aside>
       </section>
 
       <section class="content-section">
@@ -68,24 +104,24 @@
           <article class="skill-card">
             <h3>Teaching Assistant</h3>
             <p>
-              Helped 130+ students understand formal languages, automata,
-              proofs, and theory of computation concepts.
+              Helped students with automata, formal languages, proof writing,
+              decidability, and theory of computation concepts.
             </p>
           </article>
 
           <article class="skill-card">
             <h3>Generative AI Intern</h3>
             <p>
-              Built a personalized chatbot using LLMs and custom datasets to
-              improve user-specific responses.
+              Built personalized chatbot systems using LLMs and custom datasets
+              to improve user-specific responses.
             </p>
           </article>
 
           <article class="skill-card">
             <h3>Research & Development</h3>
             <p>
-              Worked on AI, LLM pruning, fraud detection, space debris
-              detection, and web scraping research projects.
+              Worked on LLM pruning, fraud detection, space debris detection,
+              web scraping, and AI-powered chatbot systems.
             </p>
           </article>
         </div>
@@ -94,21 +130,23 @@
       <section class="content-section">
         <h2>Skills</h2>
 
-        <div class="skill-grid">
-          <article class="skill-card">
-            <h3>Programming</h3>
-            <p>Python, Java, HTML, JavaScript, MATLAB.</p>
-          </article>
-
-          <article class="skill-card">
-            <h3>Web & Databases</h3>
-            <p>HTML, CSS, Node.js, React.js, PHP, MySQL, MongoDB, SQLite.</p>
-          </article>
-
-          <article class="skill-card">
-            <h3>AI & Machine Learning</h3>
-            <p>LLMs, CNNs, YOLO, GANs, TensorFlow, PyTorch, Keras.</p>
-          </article>
+        <div class="tag-list">
+          <span>Python</span>
+          <span>Java</span>
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>Node.js</span>
+          <span>React.js</span>
+          <span>MySQL</span>
+          <span>MongoDB</span>
+          <span>SQLite</span>
+          <span>TensorFlow</span>
+          <span>PyTorch</span>
+          <span>Keras</span>
+          <span>LLMs</span>
+          <span>GANs</span>
+          <span>YOLO</span>
         </div>
       </section>
     </main>
