@@ -199,3 +199,73 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+.activities-hero {
+  background: #ffffff;
+  border-radius: 1.5rem;
+  padding: 3rem;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+.activities-hero h1 {
+  font-size: 3rem;
+  margin: 0.5rem 0;
+}
+
+.no-side-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.activity-grid,
+.linkedin-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.activity-card,
+.linkedin-card {
+  background: #ffffff;
+  border-radius: 1.2rem;
+  padding: 1.5rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.activity-card h3,
+.linkedin-card h3 {
+  margin-top: 0;
+}
+
+.linkedin-card a {
+  color: #172033;
+  font-weight: 700;
+}
+
+.activity-feature {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  background: #ffffff;
+  border-radius: 1.2rem;
+  padding: 1.5rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+@media (max-width: 760px) {
+  .activities-hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .activity-grid,
+  .linkedin-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .activity-feature {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
