@@ -322,4 +322,4 @@ The JavaScript files are organized in the `js/` folder, CSS is organized in the 
 
 ## Final Design Summary
 
-This design supports the goal of creating a personal homepage that is professional, meaningful, and creative. The website presents my technical background, resume, projects, activities, and AI-generated creative identity in a structured way. It also includes an original JavaScript project filter, multiple pages, organized files, responsive layouts, accessible images, and a clearly different AI-generated page.
+This design supports the goal of creating a personal homepage that is professional, meaningful, and creative. The website presents my technical background, resume, projects, activities, and AI-generated creative identity in a structured way. It also includes an original JavaScript project filter, multiple pages, organized files, responsive layouts, accessible images, and a clear AI-generated page.
