@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Akhilan Anbu" />
+    <meta
+      name="description"
+      content="Projects by Akhilan Anbu in AI, research, web development, fraud detection, and creative work."
+    />
+    <link rel="icon" href="./images/favicon.png" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Projects | Akhilan Anbu</title>
+  </head>
+
+  <body>
+    <header class="site-header">
+      <nav class="nav-bar">
+        <a class="logo" href="./index.html">Akhilan Anbu</a>
+
+        <div class="nav-links">
+          <a href="./index.html">Home</a>
+          <a href="./projects.html">Projects</a>
+          <a href="./ai-page.html">AI Page</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="content-section">
+      <h1>My Projects</h1>
+
+      <p>
+        These projects highlight my work in AI, machine learning, research, web
+        technologies, and creative development. Use the buttons below to filter
+        the project cards.
+      </p>
+
+      <div class="filter-buttons">
+        <button class="filter-button" type="button" data-filter="all">
+          All
+        </button>
+        <button class="filter-button" type="button" data-filter="ai">
+          AI/ML
+        </button>
+        <button class="filter-button" type="button" data-filter="research">
+          Research
+        </button>
+        <button class="filter-button" type="button" data-filter="web">
+          Web Dev
+        </button>
+        <button class="filter-button" type="button" data-filter="music">
+          Music
+        </button>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card" data-category="ai research">
+          <h2>Energy-Efficient LLM Pruning</h2>
+          <p>
+            Built a research project focused on reducing LLM size, energy use,
+            and latency using mixed sparsity pruning and sensitivity-aware
+            optimization.
+          </p>
+        </article>
+
+        <article class="project-card" data-category="ai research">
+          <h2>Behavioral Biometrics Fraud Detection</h2>
+          <p>
+            Developed a fraud detection system using keystroke dynamics and
+            LLM-based analysis to identify unusual typing behavior in real time.
+          </p>
+        </article>
+
+        <article class="project-card" data-category="ai web">
+          <h2>Rexroth Drives Bot</h2>
+          <p>
+            Built a GenAI chatbot for Bosch Rexroth using Python, Llama-2, GANs,
+            and video diffusion models to support engineers working with drive
+            systems.
+          </p>
+        </article>
+
+        <article class="project-card" data-category="web research">
+          <h2>IMDb Web Scraping Project</h2>
+          <p>
+            Created a Python web scraping project using BeautifulSoup to
+            collect, clean, analyze, and visualize IMDb movie data. The work was
+            published in IEEE Xplore.
+          </p>
+        </article>
+
+        <article class="project-card" data-category="ai research">
+          <h2>Space Debris Detection</h2>
+          <p>
+            Used CNNs, optical flow, and GAN-based augmentation to detect and
+            classify space debris in dynamic orbital environments.
+          </p>
+        </article>
+
+        <article class="project-card" data-category="music">
+          <h2>Creative & Music</h2>
+          <p>
+            I also enjoy music, performance, and creative storytelling, which
+            help me bring personality and clarity into my technical work.
+          </p>
+        </article>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2026 Akhilan Anbu.</p>
+    </footer>
+
+    <script type="module" src="./js/creative.js"></script>
+  </body>
+</html>
