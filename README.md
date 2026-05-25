@@ -16,16 +16,22 @@ The objective of this project is to build a personal homepage using vanilla HTML
 
 GitHub Pages link here after deployment.
 
-## Screenshot
+## Screenshot of the website
 
 screenshot of homepage after deployment.
 
+## Youtube link of my video explanation
+
+link
+
 ## Pages Included
 
-This project includes three HTML pages with different URLs:
+This project includes multiple HTML pages with different URLs:
 
 - `index.html` - Main personal homepage
 - `projects.html` - Projects page with an interactive filter
+- `resume.html` - Resume page
+- `activities.html` - Extracurricular activities and music page
 - `ai-page.html` - AI-generated creative page
 
 ## Project Description

@@ -336,7 +336,7 @@ body {
 .music-showcase,
 .mit-performance-card {
   display: grid;
-  grid-template-columns: 0.8fr 1.2fr;
+  grid-template-columns: 0.85fr 1.15fr;
   gap: 2rem;
   align-items: center;
   background: #102a52;
@@ -346,13 +346,23 @@ body {
   margin-top: 1.5rem;
 }
 
-.music-showcase img {
+.portrait-image-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.singing-portrait-image {
   width: 100%;
-  max-height: 520px;
-  object-fit: contain;
+  max-width: 330px;
+  height: 460px;
+  object-fit: cover;
+  object-position: center;
   border-radius: 1rem;
   border: 1px solid #24476f;
   background: #07142a;
+  box-shadow: 14px 14px 24px rgba(2, 8, 23, 0.45);
+  display: block;
 }
 
 .mit-performance-card img {
@@ -660,6 +670,11 @@ body {
   .profile-image-circle {
     width: 300px;
     height: 300px;
+  }
+
+  .singing-portrait-image {
+    max-width: 300px;
+    height: 420px;
   }
 
   .matrix-grid {
