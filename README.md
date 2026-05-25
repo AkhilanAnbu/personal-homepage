@@ -14,11 +14,11 @@ The objective of this project is to build a personal homepage using vanilla HTML
 
 ## Live Website
 
-GitHub Pages link here after deployment.
+https://akhilananbu.github.io/personal-homepage/index.html
 
 ## Screenshot of the website
 
-screenshot of homepage after deployment.
+![Homepage screenshot](./images/homepage-screenshot.png)
 
 ## Youtube link of my video explanation
 
