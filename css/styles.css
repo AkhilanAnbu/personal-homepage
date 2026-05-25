@@ -5,15 +5,15 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  color: #222222;
-  background: #f7f7f7;
+  color: #e5e7eb;
+  background: #0f172a;
   line-height: 1.6;
 }
 
 .site-header {
-  background: #ffffff;
+  background: #111827;
   padding: 1rem 2rem;
-  border-bottom: 1px solid #dddddd;
+  border-bottom: 1px solid #1e3a8a;
 }
 
 .nav-bar {
@@ -26,7 +26,7 @@ body {
 }
 
 .logo {
-  color: #222222;
+  color: #ffffff;
   font-weight: 700;
   text-decoration: none;
   font-size: 1.2rem;
@@ -39,12 +39,13 @@ body {
 }
 
 .nav-links a {
-  color: #333333;
+  color: #dbeafe;
   font-weight: 600;
   text-decoration: none;
 }
 
 .nav-links a:hover {
+  color: #93c5fd;
   text-decoration: underline;
 }
 
@@ -59,28 +60,28 @@ body {
 }
 
 .hero-text {
-  background: #ffffff;
+  background: #1e293b;
   border-radius: 1rem;
   padding: 2rem;
-  border: 1px solid #dddddd;
+  border: 1px solid #334155;
 }
 
 .hero-text h1 {
   font-size: 3rem;
   margin: 0.5rem 0;
-  color: #222222;
+  color: #ffffff;
 }
 
 .tagline {
-  color: #555555;
+  color: #93c5fd;
   font-weight: 700;
 }
 
 .primary-button,
 .filter-button {
-  border: 1px solid #222222;
+  border: 1px solid #60a5fa;
   border-radius: 999px;
-  background: #222222;
+  background: #1e3a8a;
   color: #ffffff;
   padding: 0.8rem 1.2rem;
   cursor: pointer;
@@ -91,14 +92,14 @@ body {
 
 .primary-button:hover,
 .filter-button:hover {
-  background: #ffffff;
-  color: #222222;
+  background: #2563eb;
+  color: #ffffff;
 }
 
 .profile-image {
   width: 100%;
   border-radius: 1rem;
-  border: 1px solid #dddddd;
+  border: 1px solid #334155;
 }
 
 .content-section {
@@ -109,7 +110,7 @@ body {
 
 .content-section h1,
 .content-section h2 {
-  color: #222222;
+  color: #ffffff;
 }
 
 .skill-grid,
@@ -123,25 +124,24 @@ body {
 
 .skill-card,
 .project-card,
-.future-card,
-.ai-card {
-  background: #ffffff;
+.future-card {
+  background: #1e293b;
   border-radius: 1rem;
   padding: 1.5rem;
-  border: 1px solid #dddddd;
+  border: 1px solid #334155;
 }
 
 .skill-card h3,
 .project-card h2,
 .future-card h2,
 .future-card h3 {
-  color: #222222;
+  color: #bfdbfe;
 }
 
 .skill-card p,
 .project-card p,
 .future-card p {
-  color: #333333;
+  color: #e5e7eb;
 }
 
 .filter-buttons {
@@ -158,25 +158,25 @@ body {
 .site-footer {
   text-align: center;
   padding: 2rem;
-  background: #ffffff;
-  color: #333333;
-  border-top: 1px solid #dddddd;
+  background: #111827;
+  color: #dbeafe;
+  border-top: 1px solid #1e3a8a;
   margin-top: 3rem;
 }
 
-/* Activities Page - Simple Theme */
+/* Activities Page - Dark Navy Theme */
 
 .activities-hero {
-  background: #ffffff;
+  background: #1e293b;
   border-radius: 1rem;
   padding: 3rem;
-  border: 1px solid #dddddd;
+  border: 1px solid #334155;
 }
 
 .activities-hero h1 {
   font-size: 3rem;
   margin: 0.5rem 0;
-  color: #222222;
+  color: #ffffff;
 }
 
 .no-side-padding {
@@ -194,29 +194,30 @@ body {
 
 .activity-card,
 .linkedin-card {
-  background: #ffffff;
+  background: #1e293b;
   border-radius: 1rem;
   padding: 1.5rem;
-  border: 1px solid #dddddd;
+  border: 1px solid #334155;
 }
 
 .activity-card h3,
 .linkedin-card h3 {
   margin-top: 0;
-  color: #222222;
+  color: #bfdbfe;
 }
 
 .activity-card p,
 .linkedin-card p {
-  color: #333333;
+  color: #e5e7eb;
 }
 
 .linkedin-card a {
-  color: #222222;
+  color: #93c5fd;
   font-weight: 700;
 }
 
 .linkedin-card a:hover {
+  color: #ffffff;
   text-decoration: underline;
 }
 
@@ -225,18 +226,18 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 2rem;
-  background: #ffffff;
+  background: #1e293b;
   border-radius: 1rem;
   padding: 1.5rem;
-  border: 1px solid #dddddd;
+  border: 1px solid #334155;
 }
 
 .activity-feature h3 {
-  color: #222222;
+  color: #bfdbfe;
 }
 
 .activity-feature p {
-  color: #333333;
+  color: #e5e7eb;
 }
 
 /* AI Page - Colorful Complex Theme */
