@@ -32,6 +32,11 @@ body {
   font-size: 1.2rem;
 }
 
+.split-name span,
+.split-heading span {
+  color: #7db4ff;
+}
+
 .nav-links {
   display: flex;
   gap: 1rem;
@@ -51,12 +56,27 @@ body {
 
 .hero-section {
   display: grid;
-  grid-template-columns: 1.5fr 1fr;
+  grid-template-columns: 1fr 1.2fr;
   align-items: center;
-  gap: 2rem;
+  gap: 2.5rem;
   max-width: 1100px;
   margin: 3rem auto;
   padding: 0 2rem;
+}
+
+.hero-image-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-image-circle {
+  width: min(420px, 90vw);
+  height: min(420px, 90vw);
+  object-fit: cover;
+  border-radius: 50%;
+  border: 8px solid #d7e6ff;
+  box-shadow: 18px 18px 28px rgba(2, 8, 23, 0.55);
 }
 
 .hero-text {
@@ -96,6 +116,29 @@ body {
   color: #cfe1ff;
 }
 
+.secondary-button {
+  border: 1px solid #5b9df5;
+  border-radius: 999px;
+  background: #102a52;
+  color: #dbeafe;
+  padding: 0.8rem 1.2rem;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 700;
+}
+
+.secondary-button:hover {
+  background: #1d4f91;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1.2rem;
+}
+
 .profile-image {
   width: 100%;
   border-radius: 1rem;
@@ -111,6 +154,42 @@ body {
 .content-section h1,
 .content-section h2 {
   color: #d7e6ff;
+}
+
+.about-layout {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.quick-facts {
+  background: #102a52;
+  border: 1px solid #24476f;
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+
+.quick-facts h3 {
+  color: #d7e6ff;
+  margin-top: 0;
+}
+
+.fact-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  border-bottom: 1px solid #24476f;
+  padding: 0.8rem 0;
+}
+
+.fact-row span {
+  color: #9fc5ff;
+}
+
+.fact-row strong {
+  color: #d7e6ff;
+  text-align: right;
 }
 
 .skill-grid,
@@ -144,6 +223,20 @@ body {
   color: #c7d7f2;
 }
 
+.tag-list {
+  display: flex;
+  gap: 0.7rem;
+  flex-wrap: wrap;
+}
+
+.tag-list span {
+  background: #153d75;
+  color: #dbeafe;
+  border: 1px solid #5b9df5;
+  border-radius: 0.5rem;
+  padding: 0.45rem 0.75rem;
+}
+
 .filter-buttons {
   display: flex;
   gap: 0.8rem;
@@ -164,7 +257,7 @@ body {
   margin-top: 3rem;
 }
 
-/* Activities Page - Dark Navy Theme */
+/* Activities Page */
 
 .activities-hero {
   background: #102a52;
@@ -240,6 +333,112 @@ body {
   color: #c7d7f2;
 }
 
+.music-showcase,
+.mit-performance-card {
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  gap: 2rem;
+  align-items: center;
+  background: #102a52;
+  border: 1px solid #24476f;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.music-showcase img {
+  width: 100%;
+  max-height: 520px;
+  object-fit: contain;
+  border-radius: 1rem;
+  border: 1px solid #24476f;
+  background: #07142a;
+}
+
+.mit-performance-card img {
+  width: 100%;
+  max-height: 420px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 1rem;
+  border: 1px solid #24476f;
+  background: #07142a;
+}
+
+.music-showcase h3,
+.mit-performance-card h3 {
+  color: #d7e6ff;
+  margin-top: 0;
+}
+
+.music-showcase p,
+.mit-performance-card p {
+  color: #c7d7f2;
+}
+
+/* Resume Page */
+
+.resume-page {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.resume-title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.resume-title h1 {
+  color: #d7e6ff;
+  font-size: 2.6rem;
+  margin-bottom: 0.5rem;
+}
+
+.resume-title p {
+  color: #c7d7f2;
+}
+
+.resume-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  background: #0b1f3f;
+  border: 1px solid #24476f;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.resume-column h2 {
+  color: #7db4ff;
+  margin-top: 0;
+}
+
+.resume-item {
+  margin-bottom: 1.8rem;
+}
+
+.resume-item-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.resume-item h3 {
+  color: #d7e6ff;
+  margin-bottom: 0.3rem;
+}
+
+.resume-item span {
+  color: #9fc5ff;
+  white-space: nowrap;
+}
+
+.resume-item p {
+  color: #c7d7f2;
+  margin: 0.35rem 0;
+}
+
 /* AI Page - Full Light Colorful Complex Theme */
 
 .ai-page-body {
@@ -254,6 +453,10 @@ body {
 
 .ai-page-body .logo {
   color: #7f1d1d;
+}
+
+.ai-page-body .split-name span {
+  color: #dc2626;
 }
 
 .ai-page-body .nav-links a {
@@ -427,24 +630,36 @@ body {
   margin: 0.4rem 0;
 }
 
+/* Responsive Design */
+
 @media (max-width: 760px) {
   .hero-section,
+  .about-layout,
   .skill-grid,
   .project-grid,
   .future-grid,
   .activity-grid,
   .linkedin-grid,
+  .resume-grid,
+  .music-showcase,
+  .mit-performance-card,
   .ai-card .future-grid {
     grid-template-columns: 1fr;
   }
 
   .hero-text h1,
-  .activities-hero h1 {
+  .activities-hero h1,
+  .resume-title h1 {
     font-size: 2.2rem;
   }
 
   .ai-hero h1 {
     font-size: 2.4rem;
+  }
+
+  .profile-image-circle {
+    width: 300px;
+    height: 300px;
   }
 
   .matrix-grid {
@@ -454,209 +669,6 @@ body {
   .activity-feature {
     flex-direction: column;
     align-items: flex-start;
-  }
-}
-
-/* Homepage circular image and split name */
-
-.split-name span,
-.split-heading span {
-  color: #7db4ff;
-}
-
-.hero-image-wrap {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.profile-image-circle {
-  width: min(420px, 90vw);
-  height: min(420px, 90vw);
-  object-fit: cover;
-  border-radius: 50%;
-  border: 8px solid #d7e6ff;
-  box-shadow: 18px 18px 28px rgba(2, 8, 23, 0.55);
-}
-
-.hero-actions {
-  display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
-  margin-top: 1.2rem;
-}
-
-.secondary-button {
-  border: 1px solid #5b9df5;
-  border-radius: 999px;
-  background: #102a52;
-  color: #dbeafe;
-  padding: 0.8rem 1.2rem;
-  cursor: pointer;
-  text-decoration: none;
-  display: inline-block;
-  font-weight: 700;
-}
-
-.secondary-button:hover {
-  background: #1d4f91;
-}
-
-.about-layout {
-  display: grid;
-  grid-template-columns: 1.4fr 1fr;
-  gap: 2rem;
-  align-items: start;
-}
-
-.quick-facts {
-  background: #102a52;
-  border: 1px solid #24476f;
-  border-radius: 1rem;
-  padding: 1.5rem;
-}
-
-.quick-facts h3 {
-  color: #d7e6ff;
-  margin-top: 0;
-}
-
-.fact-row {
-  display: flex;
-  justify-content: space-between;
-  gap: 1rem;
-  border-bottom: 1px solid #24476f;
-  padding: 0.8rem 0;
-}
-
-.fact-row span {
-  color: #9fc5ff;
-}
-
-.fact-row strong {
-  color: #d7e6ff;
-  text-align: right;
-}
-
-.tag-list {
-  display: flex;
-  gap: 0.7rem;
-  flex-wrap: wrap;
-}
-
-.tag-list span {
-  background: #153d75;
-  color: #dbeafe;
-  border: 1px solid #5b9df5;
-  border-radius: 0.5rem;
-  padding: 0.45rem 0.75rem;
-}
-
-/* Resume page */
-
-.resume-page {
-  max-width: 1180px;
-  margin: 0 auto;
-  padding: 2rem;
-}
-
-.resume-title {
-  text-align: center;
-  margin-bottom: 2rem;
-}
-
-.resume-title h1 {
-  color: #d7e6ff;
-  font-size: 2.6rem;
-  margin-bottom: 0.5rem;
-}
-
-.resume-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 3rem;
-  background: #0b1f3f;
-  border: 1px solid #24476f;
-  border-radius: 1rem;
-  padding: 2rem;
-}
-
-.resume-column h2 {
-  color: #7db4ff;
-  margin-top: 0;
-}
-
-.resume-item {
-  margin-bottom: 1.8rem;
-}
-
-.resume-item-header {
-  display: flex;
-  justify-content: space-between;
-  gap: 1rem;
-}
-
-.resume-item h3 {
-  color: #d7e6ff;
-  margin-bottom: 0.3rem;
-}
-
-.resume-item span {
-  color: #9fc5ff;
-  white-space: nowrap;
-}
-
-.resume-item p {
-  color: #c7d7f2;
-  margin: 0.35rem 0;
-}
-
-/* Music and MIT performance sections */
-
-.music-showcase,
-.mit-performance-card {
-  display: grid;
-  grid-template-columns: 0.9fr 1.1fr;
-  gap: 2rem;
-  align-items: center;
-  background: #102a52;
-  border: 1px solid #24476f;
-  border-radius: 1rem;
-  padding: 1.5rem;
-  margin-top: 1.5rem;
-}
-
-.music-showcase img,
-.mit-performance-card img {
-  width: 100%;
-  max-height: 380px;
-  object-fit: cover;
-  border-radius: 1rem;
-  border: 1px solid #24476f;
-}
-
-.music-showcase h3,
-.mit-performance-card h3 {
-  color: #d7e6ff;
-  margin-top: 0;
-}
-
-.music-showcase p,
-.mit-performance-card p {
-  color: #c7d7f2;
-}
-
-@media (max-width: 760px) {
-  .about-layout,
-  .resume-grid,
-  .music-showcase,
-  .mit-performance-card {
-    grid-template-columns: 1fr;
-  }
-
-  .profile-image-circle {
-    width: 300px;
-    height: 300px;
   }
 
   .resume-item-header {
