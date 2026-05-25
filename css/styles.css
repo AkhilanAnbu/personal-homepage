@@ -11,9 +11,9 @@ body {
 }
 
 .site-header {
-  background: linear-gradient(135deg, #9b1c1c, #f97316, #facc15);
+  background: #b91c1c;
   padding: 1rem 2rem;
-  box-shadow: 0 6px 18px rgba(155, 28, 28, 0.25);
+  box-shadow: 0 6px 18px rgba(185, 28, 28, 0.25);
 }
 
 .nav-bar {
@@ -45,7 +45,7 @@ body {
 }
 
 .nav-links a:hover {
-  text-decoration: underline;
+  color: #facc15;
 }
 
 .hero-section {
@@ -59,16 +59,17 @@ body {
 }
 
 .hero-text {
-  background: linear-gradient(135deg, #fff3c4, #ffe0b2, #ffd6a5);
+  background: #ffedd5;
   border-radius: 1.5rem;
   padding: 2rem;
+  border-left: 8px solid #f97316;
   box-shadow: 0 12px 30px rgba(249, 115, 22, 0.18);
 }
 
 .hero-text h1 {
   font-size: 3rem;
   margin: 0.5rem 0;
-  color: #7f1d1d;
+  color: #991b1b;
 }
 
 .tagline {
@@ -80,27 +81,27 @@ body {
 .filter-button {
   border: none;
   border-radius: 999px;
-  background: linear-gradient(135deg, #dc2626, #f97316, #facc15);
+  background: #ea580c;
   color: #ffffff;
   padding: 0.8rem 1.2rem;
   cursor: pointer;
   text-decoration: none;
   display: inline-block;
   font-weight: 700;
-  box-shadow: 0 8px 18px rgba(220, 38, 38, 0.25);
+  box-shadow: 0 8px 18px rgba(234, 88, 12, 0.25);
 }
 
 .primary-button:hover,
 .filter-button:hover {
-  background: linear-gradient(135deg, #991b1b, #ea580c, #eab308);
+  background: #b91c1c;
   transform: translateY(-2px);
 }
 
 .profile-image {
   width: 100%;
   border-radius: 1.5rem;
-  border: 5px solid #f97316;
-  box-shadow: 0 12px 30px rgba(155, 28, 28, 0.25);
+  border: 5px solid #f59e0b;
+  box-shadow: 0 12px 30px rgba(185, 28, 28, 0.25);
 }
 
 .content-section {
@@ -111,7 +112,7 @@ body {
 
 .content-section h1,
 .content-section h2 {
-  color: #7f1d1d;
+  color: #991b1b;
 }
 
 .skill-grid,
@@ -130,7 +131,7 @@ body {
   background: #ffffff;
   border-radius: 1.2rem;
   padding: 1.5rem;
-  border-top: 6px solid #f97316;
+  border-top: 6px solid #f59e0b;
   box-shadow: 0 8px 20px rgba(249, 115, 22, 0.15);
 }
 
@@ -157,7 +158,7 @@ body {
 .site-footer {
   text-align: center;
   padding: 2rem;
-  background: linear-gradient(135deg, #7f1d1d, #c2410c, #f59e0b);
+  background: #991b1b;
   color: #ffffff;
   margin-top: 3rem;
 }
@@ -165,17 +166,22 @@ body {
 /* AI Page Styling */
 
 .ai-hero {
-  background: linear-gradient(135deg, #7f1d1d, #ea580c, #facc15);
+  background: #b91c1c;
   color: #ffffff;
   border-radius: 1.5rem;
   padding: 3rem;
-  box-shadow: 0 12px 30px rgba(220, 38, 38, 0.25);
+  border-bottom: 8px solid #facc15;
+  box-shadow: 0 12px 30px rgba(185, 28, 28, 0.25);
 }
 
 .ai-hero h1 {
   font-size: 3rem;
   margin: 0.5rem 0;
   color: #ffffff;
+}
+
+.ai-hero .tagline {
+  color: #facc15;
 }
 
 .matrix-grid {
@@ -187,7 +193,7 @@ body {
 
 .matrix-card {
   background: #fff7e8;
-  border-left: 6px solid #f97316;
+  border-left: 6px solid #ea580c;
   border-radius: 1rem;
   padding: 1.2rem;
 }
@@ -208,7 +214,7 @@ body {
   padding: 1.5rem;
   margin-top: 1.5rem;
   font-family: "Courier New", Courier, monospace;
-  border: 2px solid #f97316;
+  border: 3px solid #f59e0b;
 }
 
 .terminal-box p {
@@ -218,16 +224,17 @@ body {
 /* Activities Page Styling */
 
 .activities-hero {
-  background: linear-gradient(135deg, #fff3c4, #fed7aa, #fecaca);
+  background: #ffedd5;
   border-radius: 1.5rem;
   padding: 3rem;
+  border-left: 8px solid #ea580c;
   box-shadow: 0 12px 30px rgba(249, 115, 22, 0.18);
 }
 
 .activities-hero h1 {
   font-size: 3rem;
   margin: 0.5rem 0;
-  color: #7f1d1d;
+  color: #991b1b;
 }
 
 .no-side-padding {
