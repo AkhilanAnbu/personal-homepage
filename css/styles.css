@@ -5,15 +5,15 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  color: #e5e7eb;
-  background: #0f172a;
+  color: #c7d7f2;
+  background: #07142a;
   line-height: 1.6;
 }
 
 .site-header {
-  background: #111827;
+  background: #0b1f3f;
   padding: 1rem 2rem;
-  border-bottom: 1px solid #1e3a8a;
+  border-bottom: 1px solid #1e3a5f;
 }
 
 .nav-bar {
@@ -26,7 +26,7 @@ body {
 }
 
 .logo {
-  color: #ffffff;
+  color: #9fc5ff;
   font-weight: 700;
   text-decoration: none;
   font-size: 1.2rem;
@@ -39,13 +39,13 @@ body {
 }
 
 .nav-links a {
-  color: #dbeafe;
+  color: #b7cdf5;
   font-weight: 600;
   text-decoration: none;
 }
 
 .nav-links a:hover {
-  color: #93c5fd;
+  color: #6ea8ff;
   text-decoration: underline;
 }
 
@@ -60,29 +60,29 @@ body {
 }
 
 .hero-text {
-  background: #1e293b;
+  background: #102a52;
   border-radius: 1rem;
   padding: 2rem;
-  border: 1px solid #334155;
+  border: 1px solid #24476f;
 }
 
 .hero-text h1 {
   font-size: 3rem;
   margin: 0.5rem 0;
-  color: #ffffff;
+  color: #d7e6ff;
 }
 
 .tagline {
-  color: #93c5fd;
+  color: #7db4ff;
   font-weight: 700;
 }
 
 .primary-button,
 .filter-button {
-  border: 1px solid #60a5fa;
+  border: 1px solid #5b9df5;
   border-radius: 999px;
-  background: #1e3a8a;
-  color: #ffffff;
+  background: #153d75;
+  color: #dbeafe;
   padding: 0.8rem 1.2rem;
   cursor: pointer;
   text-decoration: none;
@@ -92,14 +92,14 @@ body {
 
 .primary-button:hover,
 .filter-button:hover {
-  background: #2563eb;
-  color: #ffffff;
+  background: #1d4f91;
+  color: #cfe1ff;
 }
 
 .profile-image {
   width: 100%;
   border-radius: 1rem;
-  border: 1px solid #334155;
+  border: 1px solid #24476f;
 }
 
 .content-section {
@@ -110,7 +110,7 @@ body {
 
 .content-section h1,
 .content-section h2 {
-  color: #ffffff;
+  color: #d7e6ff;
 }
 
 .skill-grid,
@@ -125,23 +125,23 @@ body {
 .skill-card,
 .project-card,
 .future-card {
-  background: #1e293b;
+  background: #102a52;
   border-radius: 1rem;
   padding: 1.5rem;
-  border: 1px solid #334155;
+  border: 1px solid #24476f;
 }
 
 .skill-card h3,
 .project-card h2,
 .future-card h2,
 .future-card h3 {
-  color: #bfdbfe;
+  color: #9fc5ff;
 }
 
 .skill-card p,
 .project-card p,
 .future-card p {
-  color: #e5e7eb;
+  color: #c7d7f2;
 }
 
 .filter-buttons {
@@ -158,25 +158,25 @@ body {
 .site-footer {
   text-align: center;
   padding: 2rem;
-  background: #111827;
-  color: #dbeafe;
-  border-top: 1px solid #1e3a8a;
+  background: #0b1f3f;
+  color: #b7cdf5;
+  border-top: 1px solid #1e3a5f;
   margin-top: 3rem;
 }
 
 /* Activities Page - Dark Navy Theme */
 
 .activities-hero {
-  background: #1e293b;
+  background: #102a52;
   border-radius: 1rem;
   padding: 3rem;
-  border: 1px solid #334155;
+  border: 1px solid #24476f;
 }
 
 .activities-hero h1 {
   font-size: 3rem;
   margin: 0.5rem 0;
-  color: #ffffff;
+  color: #d7e6ff;
 }
 
 .no-side-padding {
@@ -194,30 +194,30 @@ body {
 
 .activity-card,
 .linkedin-card {
-  background: #1e293b;
+  background: #102a52;
   border-radius: 1rem;
   padding: 1.5rem;
-  border: 1px solid #334155;
+  border: 1px solid #24476f;
 }
 
 .activity-card h3,
 .linkedin-card h3 {
   margin-top: 0;
-  color: #bfdbfe;
+  color: #9fc5ff;
 }
 
 .activity-card p,
 .linkedin-card p {
-  color: #e5e7eb;
+  color: #c7d7f2;
 }
 
 .linkedin-card a {
-  color: #93c5fd;
+  color: #7db4ff;
   font-weight: 700;
 }
 
 .linkedin-card a:hover {
-  color: #ffffff;
+  color: #a8ccff;
   text-decoration: underline;
 }
 
@@ -226,33 +226,66 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 2rem;
-  background: #1e293b;
+  background: #102a52;
   border-radius: 1rem;
   padding: 1.5rem;
-  border: 1px solid #334155;
+  border: 1px solid #24476f;
 }
 
 .activity-feature h3 {
-  color: #bfdbfe;
+  color: #9fc5ff;
 }
 
 .activity-feature p {
-  color: #e5e7eb;
+  color: #c7d7f2;
 }
 
-/* AI Page - Colorful Complex Theme */
+/* AI Page - Full Light Colorful Complex Theme */
+
+.ai-page-body {
+  color: #222222;
+  background: #fff8ed;
+}
+
+.ai-page-body .site-header {
+  background: #fff3c4;
+  border-bottom: 3px solid #f97316;
+}
+
+.ai-page-body .logo {
+  color: #7f1d1d;
+}
+
+.ai-page-body .nav-links a {
+  color: #7f1d1d;
+}
+
+.ai-page-body .nav-links a:hover {
+  color: #dc2626;
+}
+
+.ai-page-body .site-footer {
+  background: #fff3c4;
+  color: #7f1d1d;
+  border-top: 3px solid #f97316;
+}
+
+.ai-page-body .content-section h1,
+.ai-page-body .content-section h2 {
+  color: #7f1d1d;
+}
 
 .ai-hero {
   background:
     radial-gradient(circle at top left, #facc15, transparent 28%),
     radial-gradient(circle at top right, #f97316, transparent 32%),
     radial-gradient(circle at bottom left, #dc2626, transparent 30%),
-    linear-gradient(135deg, #3b0764, #7f1d1d, #ea580c);
-  color: #ffffff;
+    linear-gradient(135deg, #fff7ed, #ffedd5, #fef3c7);
+  color: #7f1d1d;
   border-radius: 2rem;
   padding: 3.5rem;
-  border: 2px solid #facc15;
-  box-shadow: 0 20px 45px rgba(220, 38, 38, 0.35);
+  border: 3px solid #f97316;
+  box-shadow: 0 20px 45px rgba(220, 38, 38, 0.18);
   position: relative;
   overflow: hidden;
 }
@@ -261,7 +294,7 @@ body {
   content: "";
   position: absolute;
   inset: 1rem;
-  border: 1px solid rgba(255, 255, 255, 0.25);
+  border: 2px dashed rgba(220, 38, 38, 0.35);
   border-radius: 1.5rem;
   pointer-events: none;
 }
@@ -269,17 +302,17 @@ body {
 .ai-hero h1 {
   font-size: 3.4rem;
   margin: 0.5rem 0;
-  color: #ffffff;
+  color: #7f1d1d;
   max-width: 850px;
 }
 
 .ai-hero p {
-  color: #fff7ed;
+  color: #431407;
   max-width: 850px;
 }
 
 .ai-hero .tagline {
-  color: #facc15;
+  color: #dc2626;
   letter-spacing: 0.08rem;
   text-transform: uppercase;
 }
