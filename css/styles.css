@@ -1,3 +1,8 @@
+/* You have the same colors repeated dozens of times (#102a52 appears 15 times, #9fc5ff 10 times). 
+If you ever want to tweak the theme, you'd have to find the color everytime and replace it.
+You can instead define variables at the top and use those variables instead of the actual colors
+You can refer my css on how this is done. */
+
 * {
   box-sizing: border-box;
 }
